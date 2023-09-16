@@ -1,80 +1,160 @@
 1
-00:00:00,197 --> 00:00:01,174 
-What is Insurance
+00:00:01,903 --> 00:00:02,429 
+Hey there
 
 2
-00:00:01,671 --> 00:00:05,568 
-Imagine insurance as a safety net for when something unexpected happens
+00:00:02,994 --> 00:00:04,964 
+Let’s dive into the world of insurance
 
 3
-00:00:06,024 --> 00:00:08,095 
-You pay a small amount of money regularly 
+00:00:05,437 --> 00:00:09,205 
+I'm going to explain what an insurance quote is in plain and simple terms
 
 4
-00:00:08,492 --> 00:00:09,466 
-called a premium
+00:00:09,702 --> 00:00:11,899 
+Imagine you're in the market for insurance
 
 5
-00:00:09,714 --> 00:00:10,965 
-to an insurance company
+00:00:12,170 --> 00:00:14,437 
+like car insurance or health insurance
 
 6
-00:00:11,471 --> 00:00:12,185 
-In return
+00:00:14,884 --> 00:00:15,280 
+Well
 
 7
-00:00:12,448 --> 00:00:15,359 
-if something bad happens that's covered by your insurance
+00:00:15,557 --> 00:00:19,537 
+an insurance quote is like a price estimate that an insurance company gives you
 
 8
-00:00:15,659 --> 00:00:16,884 
-the company helps you out
+00:00:20,052 --> 00:00:24,456 
+It's their way of telling you how much money you'll need to pay for the insurance you want
 
 9
-00:00:17,443 --> 00:00:18,174 
-For example
+00:00:24,934 --> 00:00:25,339 
+Now
 
 10
-00:00:18,500 --> 00:00:19,665 
-with car insurance
+00:00:25,654 --> 00:00:27,330 
+how do they come up with this estimate
 
 11
-00:00:19,941 --> 00:00:21,253 
-if you get into an accident
+00:00:27,878 --> 00:00:29,610 
+They'll ask you a bunch of questions
 
 12
-00:00:21,531 --> 00:00:24,572 
-the insurance company pays for some or all of the repairs
+00:00:30,137 --> 00:00:31,350 
+For car insurance
 
 13
-00:00:25,004 --> 00:00:26,193 
-With health insurance
+00:00:31,635 --> 00:00:35,521 
+they might inquire about your driving history and what kind of car you own
 
 14
-00:00:26,444 --> 00:00:28,671 
-it helps cover your medical bills when you're sick
+00:00:35,996 --> 00:00:37,388 
+If it's health insurance
 
 15
-00:00:29,283 --> 00:00:30,599 
-And with life insurance
+00:00:37,684 --> 00:00:39,837 
+they could ask about your age and your overall health
 
 16
-00:00:30,876 --> 00:00:31,831 
-if you pass away
+00:00:40,400 --> 00:00:41,002 
+Basically
 
 17
-00:00:32,164 --> 00:00:35,781 
-your family gets some money from the insurance company to help them out
+00:00:41,289 --> 00:00:45,094 
+they want to know the details that matter for the type of insurance you're looking to buy
 
 18
-00:00:36,261 --> 00:00:36,633 
-So
+00:00:46,370 --> 00:00:47,999 
+Once they have all this information
 
 19
-00:00:36,958 --> 00:00:42,120 
-insurance is like a protective shield that helps you deal with problems and unexpected situations
+00:00:48,349 --> 00:00:52,762 
+the insurance company uses it to calculate how much you'll need to pay for your coverage
 
 20
-00:00:42,421 --> 00:00:45,189 
-and you pay a bit of money to have that shield in place
+00:00:53,206 --> 00:00:54,561 
+But here's the interesting part
+
+21
+00:00:54,931 --> 00:00:59,014 
+different insurance companies might give you different estimates for the same coverage
+
+22
+00:00:59,466 --> 00:00:59,834 
+So
+
+23
+00:01:00,100 --> 00:01:03,861 
+it's a good idea to shop around and get quotes from a few different companies
+
+24
+00:01:04,307 --> 00:01:04,726 
+This way
+
+25
+00:01:05,036 --> 00:01:07,798 
+you can compare the prices and what each policy offers
+
+26
+00:01:08,254 --> 00:01:11,049 
+You can see which one fits your needs and budget the best
+
+27
+00:01:11,618 --> 00:01:16,063 
+And once you find the insurance company that you like and you're happy with the quote they give you
+
+28
+00:01:16,387 --> 00:01:17,347 
+you pay that amount
+
+29
+00:01:17,834 --> 00:01:19,525 
+That's when your insurance kicks in
+
+30
+00:01:19,796 --> 00:01:22,549 
+and they'll cover you for the specific things you're insured for
+
+31
+00:01:22,822 --> 00:01:24,297 
+whether it's car accidents
+
+32
+00:01:24,559 --> 00:01:25,733 
+medical expenses
+
+33
+00:01:25,992 --> 00:01:27,570 
+or whatever you're covered against
+
+34
+00:01:28,824 --> 00:01:29,197 
+So
+
+35
+00:01:29,485 --> 00:01:30,043 
+there you have it
+
+36
+00:01:30,550 --> 00:01:33,845 
+An insurance quote is like a price estimate for insurance
+
+37
+00:01:34,298 --> 00:01:37,172 
+It helps you find the right coverage at the right price
+
+38
+00:01:37,643 --> 00:01:38,218 
+And remember
+
+39
+00:01:38,545 --> 00:01:39,832 
+when it comes to insurance
+
+40
+00:01:40,108 --> 00:01:44,489 
+it's a wise move to get multiple quotes to make sure you're getting the best deal for you
 
