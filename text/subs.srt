@@ -1,78 +1,80 @@
 1
-00:00:00,176 --> 00:00:01,314 
+00:00:00,197 --> 00:00:01,174 
 What is Insurance
 
 2
-00:00:01,453 --> 00:00:05,708 
+00:00:01,671 --> 00:00:05,568 
 Imagine insurance as a safety net for when something unexpected happens
 
 3
-00:00:06,004 --> 00:00:10,692 
-You pay a small amount of money regularly (called a premium) to an insurance company
+00:00:06,024 --> 00:00:08,095 
+You pay a small amount of money regularly 
 
 4
-00:00:10,929 --> 00:00:11,683 
-In return
+00:00:08,492 --> 00:00:09,466 
+called a premium
 
 5
-00:00:12,026 --> 00:00:15,018 
-if something bad happens that's covered by your insurance
+00:00:09,714 --> 00:00:10,965 
+to an insurance company
 
 6
-00:00:15,216 --> 00:00:16,605 
-the company helps you out
+00:00:11,471 --> 00:00:12,185 
+In return
 
 7
-00:00:16,945 --> 00:00:17,752 
-For example
+00:00:12,448 --> 00:00:15,359 
+if something bad happens that's covered by your insurance
 
 8
-00:00:17,913 --> 00:00:19,066 
-with car insurance
+00:00:15,659 --> 00:00:16,884 
+the company helps you out
 
 9
-00:00:19,325 --> 00:00:20,975 
-if you get into an accident
+00:00:17,443 --> 00:00:18,174 
+For example
 
 10
-00:00:21,302 --> 00:00:23,355 
-the insurance company pays for some or all of the repairs
+00:00:18,500 --> 00:00:19,665 
+with car insurance
 
 11
-00:00:23,523 --> 00:00:23,721 
-With health insurance
+00:00:19,941 --> 00:00:21,253 
+if you get into an accident
 
 12
-00:00:23,825 --> 00:00:24,886 
-it helps cover your medical bills when you're sick
+00:00:21,531 --> 00:00:24,572 
+the insurance company pays for some or all of the repairs
 
 13
-00:00:25,053 --> 00:00:26,242 
-And with life insurance
+00:00:25,004 --> 00:00:26,193 
+With health insurance
 
 14
-00:00:26,528 --> 00:00:29,093 
-if you pass away
+00:00:26,444 --> 00:00:28,671 
+it helps cover your medical bills when you're sick
 
 15
-00:00:29,435 --> 00:00:31,010 
-your family gets some money from the insurance company to help them out
+00:00:29,283 --> 00:00:30,599 
+And with life insurance
 
 16
-00:00:31,250 --> 00:00:32,456 
-So
+00:00:30,876 --> 00:00:31,831 
+if you pass away
 
 17
-00:00:32,807 --> 00:00:36,412 
-insurance is like a protective shield that helps you deal with problems and unexpected situations
+00:00:32,164 --> 00:00:35,781 
+your family gets some money from the insurance company to help them out
 
 18
-00:00:36,690 --> 00:00:37,067 
-and you pay a bit of money to have that shield in place
+00:00:36,261 --> 00:00:36,633 
+So
 
 19
-00:00:37,410 --> 00:00:41,121 
-
+00:00:36,958 --> 00:00:42,120 
+insurance is like a protective shield that helps you deal with problems and unexpected situations
 
 20
-00:00:41,233 --> 00:00:43,206 
+00:00:42,421 --> 00:00:45,189 
+and you pay a bit of money to have that shield in place
+
