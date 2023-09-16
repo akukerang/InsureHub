@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InsureHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>InsureHub</h1>
+    </header>
+    <div class="content">
+        <div class="video-section">
+            <div class="video-container">
+                <video class="video" id="video-player" autoplay controls>
+                    <source src="what-is-insurance.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="nav-arrows">
+                <span class="arrow" id="prev-video">&#9664;</span>
+                <span class="arrow" id="next-video">&#9654;</span>
+            </div>
+        </div>
+    </div>
+    <div class="comment-section">
+        <div class="comments">
+        </div>
+    </div>
+    
+    <div class="message-input-container">
+        <input type="text" id="message-input" placeholder="Type your message...">
+    </div>
+    
+    <div class="send-button-container">
+        <button id="send-button">Send</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
