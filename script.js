@@ -1,5 +1,5 @@
 const videoPlayer = document.getElementById('video-player');
-const videos = ['what-is-insurance.mp4', 'types-of-insurance.mp4', 'need-insurance.mp4', 'quotes.mp4'];
+const videos = ['finalVid/what-is-insurance.mp4', 'finalVid/types-of-insurance.mp4', 'finalVid/need-insurance.mp4', 'finalVid/quotes.mp4'];
 let currentVideoIndex = 0;
 
 function loadVideo() {
