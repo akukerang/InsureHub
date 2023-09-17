@@ -1,4 +1,4 @@
-# InsureHub
+# OwlBeSure
 Shellhack 2023, Insurance based Tiktok Inspired website
 ## Requirements
 - `pip install -r requirements.txt`
