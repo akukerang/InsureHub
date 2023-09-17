@@ -1,5 +1,5 @@
 const videoPlayer = document.getElementById('video-player');
-const videos = ['finalVid/what-is-insurance.webm', 'finalVid/types-of-insurance.webm', 'finalVid/need-insurance.webm', 'finalVid/quotes.webm'];
+const videos = ['../static/finalVid/what-is-insurance.webm', '../static/finalVid/types-of-insurance.webm', '../static/finalVid/need-insurance.webm', '../static/finalVid/quotes.webm'];
 let currentVideoIndex = 0;
 
 function loadVideo() {
@@ -8,14 +8,21 @@ function loadVideo() {
     videoPlayer.play();
 }
 
+function reset() {
+    commentsContainer.innerHTML = "";
+}
+
 document.getElementById('prev-video').addEventListener('click', () => {
     currentVideoIndex = (currentVideoIndex - 1 + videos.length) % videos.length;
     loadVideo();
+    reset();
+
 });
 
 document.getElementById('next-video').addEventListener('click', () => {
     currentVideoIndex = (currentVideoIndex + 1) % videos.length;
     loadVideo();
+    reset();
 });
 
 loadVideo();

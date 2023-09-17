@@ -8,7 +8,7 @@ openai.api_key = config.api_key
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('index.html',conversation=conversation)
 
 @app.route('/reset')
 def reset():
