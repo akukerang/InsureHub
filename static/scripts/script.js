@@ -20,6 +20,8 @@ document.getElementById('next-video').addEventListener('click', () => {
 
 loadVideo();
 
+var conversation = {};
+
 const messageInput = document.getElementById("message-input");
 const sendButton = document.getElementById("send-button");
 
@@ -38,6 +40,22 @@ sendButton.addEventListener("click", function () {
     if (messageText !== "") {
         addComment("User: " + messageText);
         messageInput.value = "";
+
+        // Sends message to server
+        fetch("/comment",{
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: `comment=${messageText}`,
+        }).then(response => response.json()).then(data => {
+            const botResponse =  data.bot_response;
+            console.log(data.bot_response)
+            addComment("InsureBot: " + botResponse);
+        }).catch(error=>{console.log(error)});
+
+
+
     }
 });
 

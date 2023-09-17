@@ -71,8 +71,8 @@ def call(first_question, user_question):
         {"role": "assistant", "content" : video_answer},
         {"role": "user", "content" : user_question},
         ]
-    return response
     )
+    return response
 
 # Extract and print the translated text
 print("Full JSON response:")
