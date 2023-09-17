@@ -76,7 +76,7 @@ def call(first_question, video_answer, user_question):
 
 # Extract and print the translated text
 print("Full JSON response:")
-print(response)
+#print(response)
 
 # translated_text = response.choices[0].text.strip()
 # print("\nTranslated text:", translated_text)

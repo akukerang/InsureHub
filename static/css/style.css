@@ -111,3 +111,33 @@ header {
 #send-button:hover {
     background-color: #aa1515;
 }
+
+/* .comment {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+} */
+
+/* CSS styles for profile picture */
+.profile-image {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* CSS styles for comment text */
+.comment-text {
+    flex-grow: 1;
+}
+
+/* CSS styles for username */
+.comment-username {
+    font-weight: bold;
+}
+
+/* CSS styles for comment content */
+.comment-content {
+    margin-top: 10px;
+}
