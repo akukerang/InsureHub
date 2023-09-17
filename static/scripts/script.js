@@ -1,5 +1,9 @@
 const videoPlayer = document.getElementById('video-player');
+<<<<<<< HEAD:static/scripts/script.js
 const videos = ['finalVid/what-is-insurance.webm', 'finalVid/types-of-insurance.webm', 'finalVid/need-insurance.webm', 'finalVid/quotes.webm'];
+=======
+const videos = ['finalVid/what-is-insurance.mp4', 'finalVid/types-of-insurance.mp4', 'finalVid/need-insurance.mp4', 'finalVid/quotes.mp4'];
+>>>>>>> 8b0b49f47989388b91e46d72995bc38202c13d3b:script.js
 let currentVideoIndex = 0;
 
 function loadVideo() {
