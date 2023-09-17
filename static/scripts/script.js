@@ -50,7 +50,6 @@ sendButton.addEventListener("click", function () {
             body: `comment=${messageText}`,
         }).then(response => response.json()).then(data => {
             const botResponse =  data.bot_response;
-            console.log(data.bot_response)
             addComment("InsureBot: " + botResponse);
         }).catch(error=>{console.log(error)});
 

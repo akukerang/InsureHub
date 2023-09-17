@@ -33,7 +33,6 @@ def getResponse():
         messages=conversation,
     )
     response['content'] = requests.choices[0]['message']['content']
-    print(response['content'])
     conversation.append(response)
     return jsonify({'bot_response': response['content']})
 
