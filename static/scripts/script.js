@@ -56,7 +56,7 @@ sendButton.addEventListener("click", function () {
         }).then(response => response.json()).then(data => {
             const botResponse =  data.bot_response;
             UserTurn = false;
-            addComment(botResponse, "InsureBot");
+            addComment(botResponse, "OwlBot");
             UserTurn = true;
         }).catch(error=>{console.log(error)});
     }
