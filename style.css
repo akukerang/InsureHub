@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-image: image("pictures/Untitled.png");
     background-color: #f2f2f2;
     overflow-x: hidden;
 }
@@ -18,31 +19,16 @@ header {
     z-index: 1;
 }
 
-.white-room {
-    margin-top: 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f2f2f2;
-    padding: 5px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-}
-
 .video-container {
     height: 550px;
     max-width: 90%;
-    display: flex;
 }
 
 .video {
     height: 550px;
-    max-width: 350px;
-    width: 100%;
+    width: 350px;
     background-color: #000;
-    border-radius: 10px; 
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    margin-right: 305px;
     margin-top: 20px;
     object-fit: cover;
 }
@@ -67,50 +53,35 @@ header {
 
 .content {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 80px;
-    padding: 20px; 
-    position: relative; 
-}
-
-.video-section {
-    max-width: 70%;
-    position: relative;
+    justify-content: space-around;
+    /* align-items: flex-start; */
+    margin: 80px auto 80px auto;
+    padding-left: 393px;
+    padding-right: 393px;
 }
 
 .comment-section {
-    width: 275px; 
-    height: 400px;
-    max-height: 510px; 
+    width: 300px; 
+    height: 550px;
+    margin-top: 20px;
     background-color: #e1e1e1;
-    border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    padding: 20px; 
-    overflow-y: auto; 
-    position: absolute;
-    top: 0; 
-    margin-top: 120px;
-    left: calc(70% - 300px);
-    z-index: -1;
 }
 
 .comment {
-    padding-left: 15px;
+    padding-left: 10px;
+    padding-top: 5px;
 }
 
 .message-input-container {
-    margin-top: 10px;
-    position: absolute;
-    bottom: 10px; 
-    left: calc(70% - 275px);
-    margin-bottom: 105px;
-    z-index: 1;
+    margin-top: 460px;
+    /* position: absolute; */
 }
 
 #message-input {
     width: 260px;
     padding: 10px;
+    margin-left: 10px;
     border: none;
     border-radius: 5px;
     background-color: #fff;
@@ -120,12 +91,8 @@ header {
 
 .send-button-container {
     margin-top: 8px;
-    align-items: center;
-    position: absolute;
-    margin-bottom: 43px;
-    bottom: 20px; 
-    left: calc(70% - 260px);
-    z-index: 1;
+    padding-left: 25px;
+    /* position: absolute; */
 }
 
 #send-button {
@@ -138,7 +105,6 @@ header {
     cursor: pointer;
     transition: background-color 0.3s ease;
     font-size: 16px;
-    align-items: center;
 }
 
 #send-button:hover {
