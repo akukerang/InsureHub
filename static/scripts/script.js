@@ -16,7 +16,6 @@ document.getElementById('prev-video').addEventListener('click', () => {
     currentVideoIndex = (currentVideoIndex - 1 + videos.length) % videos.length;
     loadVideo();
     reset();
-
 });
 
 document.getElementById('next-video').addEventListener('click', () => {
@@ -31,7 +30,6 @@ var conversation = {};
 
 const messageInput = document.getElementById("message-input");
 const sendButton = document.getElementById("send-button");
-
 const commentsContainer = document.querySelector(".comments");
 
 function addComment(text, user) {
@@ -58,12 +56,9 @@ sendButton.addEventListener("click", function () {
         }).then(response => response.json()).then(data => {
             const botResponse =  data.bot_response;
             UserTurn = false;
-            addComment(botResponse, "InsurBot");
+            addComment(botResponse, "InsureBot");
             UserTurn = true;
         }).catch(error=>{console.log(error)});
-
-
-
     }
 });
 
@@ -75,37 +70,30 @@ messageInput.addEventListener("keydown", function (event) {
 });
 
 function createComment(profileImageUrl, username, commentText) {
-    // Create a new <div> element to represent the comment container
     var commentDiv = document.createElement("div");
     commentDiv.className = "comment";
 
-    // Create an <img> element for the profile picture
     var profileImage = document.createElement("img");
     profileImage.src = profileImageUrl;
     profileImage.alt = username;
     profileImage.className = "profile-image";
 
-    // Create a <div> element to hold the comment text
-    var textDiv = document.createElement("div");
-    textDiv.className = "comment-text";
+    var profile = document.createElement("div");
+    profile.className = "profile";
 
-    // Create a <p> element for the username
-    var usernamePara = document.createElement("p");
+    var usernamePara = document.createElement("span");
     usernamePara.textContent = username;
     usernamePara.className = "comment-username";
 
-    // Create a <p> element for the comment text
     var commentPara = document.createElement("p");
     commentPara.textContent = commentText;
     commentPara.className = "comment-content";
 
-    // Append the profile picture, username, and comment text to the comment container
-    textDiv.appendChild(usernamePara);
-    textDiv.appendChild(commentPara);
+    profile.appendChild(profileImage);
+    profile.appendChild(usernamePara);
 
-    commentDiv.appendChild(profileImage);
-    commentDiv.appendChild(textDiv);
+    commentDiv.appendChild(profile);
+    commentDiv.appendChild(commentPara);
 
-    // Return the comment <div>
     return commentDiv;
 }
