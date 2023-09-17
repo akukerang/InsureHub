@@ -60,7 +60,7 @@ initial_chat = {
 
 # Make an API request
 # Define the prompt for the API request
-def call(first_question, user_question):
+def call(first_question, video_answer, user_question):
 
     response = openai.ChatCompletion.create(
     model="gpt-3.5-turbo", 
